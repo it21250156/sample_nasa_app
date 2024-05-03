@@ -10,6 +10,7 @@ const ApodContent = ({ data }) => {
         strings={[data.title]}
         typeSpeed={60}
       />
+
       <p></p>
       <ReactTyped
         className="text-center text-sm font-mono italic"
