@@ -58,13 +58,10 @@ const Hero = () => {
           />
         </div>
         <div className="lg:w-2/3 flex flex-col justify-center">
-          {' '}
-          {/* Main hero text container */}
           <div className="mb-8 mx-5">
             <p className="text-white text-3xl font-thin mb-4">
               This is a Simple Web Application with NASA APIs
             </p>
-
             <ReactTyped
               className="text-gradient-1 hero-list-item px-20"
               strings={[
@@ -78,7 +75,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="lg:w-1/3 flex justify-end p-8">
+        <div className="lg:w-1/3 flex justify-end p-8 hidden lg:flex">
           <motion.img
             src={planet2}
             alt="Right1"
