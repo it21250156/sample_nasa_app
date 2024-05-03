@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { ReactTyped } from 'react-typed';
 import { motion } from 'framer-motion';
 import PhotoSlideOver from './PhotoSlideOver';
 

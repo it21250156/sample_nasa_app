@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const ApodPage = () => {
   const [todayData, setTodayData] = useState(null);
   const [pastApods, setPastApods] = useState([]);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
 
   const apiKey = process.env.REACT_APP_NASA_API_KEY;
 
@@ -49,7 +49,7 @@ const ApodPage = () => {
 
     fetchAPIData();
     fetchPastApods();
-  }, []);
+  });
   return (
     <div className="text-white">
       <div className="flex justify-center items-center h-full">
